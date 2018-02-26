@@ -4,6 +4,13 @@ Do a bunch of things to http://draftbreakdown.com
 ## scrape_dbd.py
 Grap player data from the website... currently only gets name and school. If you want something else and you can't figure out how to change it, you shouldn't be using this tool!!!
 
+### Example
+
+```
+./scrape_dbd.py quaterback http://draftbreakdown.com/quarterback/
+```
+
+### Usage
 ```
 usage: scrape_dbd.py [-h] category url 
 
